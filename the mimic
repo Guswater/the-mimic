@@ -1,0 +1,9 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("GUS X HUB", "Synapse")
+
+local Tab = Window:NewTab("THE MIMIC")
+local Section = Tab:NewSection("nightmare Circus")
+
+Section:NewButton("teleport", "ต้องกดeเองนะครับ (กดeอัตโนมัติเร็วๆนี้)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Guswater/script-the-mimic/main/the%20mimic"))()
+end)
